@@ -1,0 +1,2242 @@
+{
+  "Version": 76,
+  "Individuals": [
+    {
+      "Name": "Niemi 2001 - European (P-gp modified, CYP3A4 36 h)",
+      "Seed": -1933834031,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 24.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 67.4,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ]
+        },
+        {
+          "Name": "ABCB1",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B3",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0326065214
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.026415244
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.041669701
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0574843621
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0249619939
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0227975502
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0151497833
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0094097200792
+            },
+            {
+              "Name": "Skin",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0107729681
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0113959291
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0102007599
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0194716112
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.0081029350428
+            }
+          ]
+        },
+        {
+          "Name": "ATP1A2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.0062154033171
+            },
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0508741242
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.3179118843
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0158938619
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0272345453
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.7034193524
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0073903254795
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.0389467988
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.0103243118
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0309435884
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0786998764
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C8",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00041051218109
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0138116248
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0012660656052
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00092269326683
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0031843468252
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0031843468252
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0031843468252
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0031843468252
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0031843468252
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0031843468252
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2C8"
+          }
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Clarithromycin",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.3,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.299
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 12.17,
+              "Unit": "mg/ml"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 2.4
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.23E-06,
+              "Unit": "dm/min"
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 8.99,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "fit",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 48.7,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "kcat",
+              "Value": 76.5,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "KidneyClearance",
+          "DataSource": "fitted",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Body weight",
+              "Value": 71.5,
+              "Unit": "kg",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Blood flow rate (kidney)",
+              "Value": 1.31,
+              "Unit": "l/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.4
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 1.75,
+              "Unit": "ml/min/kg"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Eberl (2007)",
+          "Molecule": "ABCB1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 4.1,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "IrreversibleInhibition",
+          "DataSource": "fitted",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "kinact",
+              "Value": 0.04,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "K_kinact_half",
+              "Value": 6.04,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Vermeer 2016",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 5.3,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Vermeer 2016",
+          "Molecule": "OATP1B3",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 14.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 747.9534,
+          "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Repaglinide",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.72,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.029,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Seedher 2009",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 140.86,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Publication"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4,
+              "ValueOrigin": {
+                "Source": "Publication"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2.02E-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "Permeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Permeability",
+              "Value": 0.04,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 4.16,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 6.01,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Kajosaari 2005",
+          "Molecule": "CYP2C8",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 2.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 4.56,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Kajosaari 2005",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Enzyme concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 15.6,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.86,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Menochet 2012",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 12.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 1600.24,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Menochet 2012",
+          "Molecule": "OATP1B3",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 12.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 551.24,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Schmitt",
+        "Cellular permeability - Charge dependent Schmitt"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 452.6,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Clarithromycin (Weibull)",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 5.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 2.9
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 0.0
+        }
+      ]
+    },
+    {
+      "Name": "Repaglinide (Zhu 2014, dissolution profile)",
+      "FormulationType": "Formulation_Table",
+      "Parameters": [
+        {
+          "Name": "Fraction (dose)",
+          "Value": 0.0,
+          "TableFormula": {
+            "Name": "Repaglinide.Sheet1",
+            "XName": "Time",
+            "XDimension": "Time",
+            "XUnit": "min",
+            "YName": "Repaglinide.Sheet1",
+            "YDimension": "Fraction",
+            "YUnit": "%",
+            "UseDerivedValues": true,
+            "Points": [
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "RestartSolver": false
+              },
+              {
+                "X": 5.0252799987793,
+                "Y": 47.9083,
+                "RestartSolver": false
+              },
+              {
+                "X": 10.0306997299194,
+                "Y": 84.9314,
+                "RestartSolver": false
+              },
+              {
+                "X": 15.1684999465942,
+                "Y": 94.725400000000008,
+                "RestartSolver": false
+              },
+              {
+                "X": 20.1790008544922,
+                "Y": 95.8753,
+                "RestartSolver": false
+              },
+              {
+                "X": 45.0396995544434,
+                "Y": 96.8705,
+                "RestartSolver": false
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Clarithromycin - Niemi 2001, 250 mg, 5 days, BID",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 250.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 9.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Repaglinide DDI - Niemi 2001, 0.25 mg, day 5, SD",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.25,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 97.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "Repaglinide Control - Niemi 2001, 0.25 mg, SD",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.25,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI",
+        "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 104.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Clarithromycin - Niemi 2001, 250 mg, 5 days, BID|Clarithromycin (Weibull)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Clarithromycin - Niemi 2001, 250 mg, 5 days, BID|Clarithromycin (Weibull)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Clarithromycin - Niemi 2001, 250 mg, 5 days, BID|Clarithromycin (Weibull)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Clarithromycin - Niemi 2001, 250 mg, 5 days, BID|Clarithromycin (Weibull)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Clarithromycin - Niemi 2001, 250 mg, 5 days, BID|Clarithromycin (Weibull)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Clarithromycin - Niemi 2001, 250 mg, 5 days, BID|Clarithromycin (Weibull)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Clarithromycin - Niemi 2001, 250 mg, 5 days, BID|Clarithromycin (Weibull)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Clarithromycin - Niemi 2001, 250 mg, 5 days, BID|Clarithromycin (Weibull)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Clarithromycin - Niemi 2001, 250 mg, 5 days, BID|Clarithromycin (Weibull)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|Repaglinide DDI - Niemi 2001, 0.25 mg, day 5, SD|Repaglinide (Zhu 2014, dissolution profile)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Clarithromycin|P (blood cells->plasma)",
+          "Value": 1.04E-06,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Clarithromycin|P (plasma->blood cells)",
+          "Value": 3.62E-05,
+          "Unit": "dm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Repaglinide|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Niemi 2001 - European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Clarithromycin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-fit",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Renal Clearances-fitted"
+            }
+          ],
+          "Protocol": {
+            "Name": "Clarithromycin - Niemi 2001, 250 mg, 5 days, BID",
+            "Formulations": [
+              {
+                "Name": "Clarithromycin (Weibull)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Repaglinide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Schmitt",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Kajosaari 2005",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C8-Kajosaari 2005",
+              "MoleculeName": "CYP2C8"
+            },
+            {
+              "Name": "OATP1B1-Menochet 2012",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "OATP1B3-Menochet 2012",
+              "MoleculeName": "OATP1B3"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Repaglinide DDI - Niemi 2001, 0.25 mg, day 5, SD",
+            "Formulations": [
+              {
+                "Name": "Repaglinide (Zhu 2014, dissolution profile)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 88.61245,
+              "Max": 114.3641,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5-Repaglinide-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5|Organism|PeripheralVenousBlood|Repaglinide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI-Repaglinide-Peripheral Venous Blood-Plasma-Repa ",
+              "X": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI|time ",
+              "Y": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|Repa ",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI-Repaglinide-Peripheral Venous Blood-Plasma-Clari ",
+              "X": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI|time ",
+              "Y": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|Clari ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Repaglinide-DDI\nNiemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5\n2019-11-13 16:49"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 97.0,
+              "Max": 104.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5-Clarithromycin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5|Organism|PeripheralVenousBlood|Clarithromycin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5-Repaglinide-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5|Organism|PeripheralVenousBlood|Repaglinide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI-Repaglinide-Peripheral Venous Blood-Plasma-Repa ",
+              "X": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI|time ",
+              "Y": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|Repa ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI-Repaglinide-Peripheral Venous Blood-Plasma-Clari ",
+              "X": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI|time ",
+              "Y": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|Clari ",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "OriginText": "Clarithromycin-Repaglinide-DDI\nNiemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5\n2019-11-13 16:49"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-fitted",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "ABCB1-Eberl (2007)",
+          "MoleculeName": "ABCB1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B1-Vermeer 2016",
+          "MoleculeName": "OATP1B1",
+          "CompoundName": "Clarithromycin"
+        },
+        {
+          "Name": "OATP1B3-Vermeer 2016",
+          "MoleculeName": "OATP1B3",
+          "CompoundName": "Clarithromycin"
+        }
+      ]
+    },
+    {
+      "Name": "Niemi 2001, Repaglinide 0.25 mg, SD, Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 30.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Repaglinide Control - Niemi 2001, 0.25 mg, SD|Repaglinide (Zhu 2014, dissolution profile)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Repaglinide|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Niemi 2001 - European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Repaglinide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Schmitt",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Kajosaari 2005",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2C8-Kajosaari 2005",
+              "MoleculeName": "CYP2C8"
+            },
+            {
+              "Name": "OATP1B1-Menochet 2012",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "OATP1B3-Menochet 2012",
+              "MoleculeName": "OATP1B3"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Repaglinide Control - Niemi 2001, 0.25 mg, SD",
+            "Formulations": [
+              {
+                "Name": "Repaglinide (Zhu 2014, dissolution profile)",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Niemi 2001, Repaglinide 0.25 mg, SD, Control-Repaglinide-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Niemi 2001, Repaglinide 0.25 mg, SD, Control|Organism|PeripheralVenousBlood|Repaglinide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control-Repaglinide-Peripheral Venous Blood-Plasma-Repa  ",
+              "X": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control|time  ",
+              "Y": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|Repa  ",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "OriginText": "Clarithromycin-Repaglinide-DDI\nNiemi 2001, Repaglinide 0.25 mg, SD, day 5, Control\n2019-11-18 11:45"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI",
+      "ExtendedProperties": [
+        {
+          "Name": "Molecule",
+          "Value": "Repaglinide"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Clari ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-01-10T16:04:38.4188001+01:00",
+                "Source": "Niemi 2001.Clarithromycin while DDI day5.SD [mg/l]",
+                "MolWeight": 452.6
+              },
+              "Values": [
+                0.244961992,
+                0.56385,
+                0.58326,
+                0.52884,
+                0.5502,
+                0.44523,
+                0.431610018,
+                0.44331,
+                0.41025,
+                0.381084,
+                0.316905,
+                0.227483988
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Clari ",
+            "Path": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|Clari "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-01-10T16:04:38.4188001+01:00",
+            "Source": "Niemi 2001.Clarithromycin while DDI day5.Clari [mg/l]",
+            "MolWeight": 452.6
+          },
+          "Values": [
+            0.378712,
+            1.51184,
+            1.66897,
+            1.64136994,
+            1.60536,
+            1.4138,
+            1.34343994,
+            1.21423,
+            1.16021,
+            0.971151948,
+            0.762655,
+            0.546553
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time ",
+        "QuantityInfo": {
+          "Name": "time ",
+          "Path": "Clarithromycin - Niemi 2001, 250 mg, BIDm day 5, during DDI|time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-01-10T16:04:38.4188001+01:00",
+          "Source": "Niemi 2001.Clarithromycin while DDI day5.time [h]"
+        },
+        "Values": [
+          96.01741,
+          96.34604,
+          96.68788,
+          97.0166855,
+          97.3541946,
+          97.68577,
+          98.01438,
+          98.50894,
+          99.00908,
+          100.01075,
+          101.014084,
+          103.000648
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI",
+      "ExtendedProperties": [
+        {
+          "Name": "Molecule",
+          "Value": "Repaglinide"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Repa ",
+          "RelatedColumns": [
+            {
+              "Name": "SD ",
+              "QuantityInfo": {
+                "Name": "SD ",
+                "Path": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|SD "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-01-10T16:03:53.8198394+01:00",
+                "Source": "Niemi 2001.Repa while DDI Clari day 5.SD [ng/ml]",
+                "MolWeight": 452.6
+              },
+              "Values": [
+                3.12683988,
+                1.84005,
+                0.753240049,
+                0.290370017,
+                0.129450008,
+                0.176526,
+                "NaN",
+                0.215781,
+                "NaN",
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Repa ",
+            "Path": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|Repa "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-01-10T16:03:53.8198394+01:00",
+            "Source": "Niemi 2001.Repa while DDI Clari day 5.Repa [ng/ml]",
+            "MolWeight": 452.6
+          },
+          "Values": [
+            0.00637522,
+            0.00615691,
+            0.0030092,
+            0.00176429,
+            0.00117327,
+            0.000800678041,
+            0.00049412204,
+            0.000348433,
+            0.000183928991,
+            0.000126627,
+            6.30675058E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time ",
+        "QuantityInfo": {
+          "Name": "time ",
+          "Path": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, during Clarithromycin DDI|time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-01-10T16:03:53.8198394+01:00",
+          "Source": "Niemi 2001.Repa while DDI Clari day 5.time [h]"
+        },
+        "Values": [
+          97.34112,
+          97.67436,
+          98.00159,
+          98.33334,
+          98.6669159,
+          99.00695,
+          99.5029144,
+          100.00174,
+          101.004814,
+          101.999306,
+          103.998871
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Laura Fuhr\\Desktop\\Clari obs data\\Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control.xlsx.Repaglinide - Niemi 2001, 0.2"
+        },
+        {
+          "Name": "File",
+          "Value": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Repaglinide - Niemi 2001, 0.2"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Repaglinide"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Repa  ",
+          "RelatedColumns": [
+            {
+              "Name": "SD  ",
+              "QuantityInfo": {
+                "Name": "SD  ",
+                "Path": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|SD  "
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "2019-11-18T11:45:09.2010102+01:00",
+                "Source": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control.Repaglinide - Niemi 2001, 0.2.SD  [ng/ml]",
+                "MolWeight": 452.6
+              },
+              "Values": [
+                1.59294,
+                1.65165007,
+                1.01379,
+                0.69282,
+                0.489242971,
+                0.344358,
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "ng/ml"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Repa  ",
+            "Path": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|Repa  "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "2019-11-18T11:45:09.2010102+01:00",
+            "Source": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control.Repaglinide - Niemi 2001, 0.2.Repa  [mg/l]",
+            "MolWeight": 452.6
+          },
+          "Values": [
+            0.00332602,
+            0.00414836,
+            0.002154,
+            0.001356,
+            0.000948088069,
+            0.000700645964,
+            0.000478063972,
+            0.000335472025,
+            0.000244040013,
+            0.000126752,
+            6.44002E-05
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "time  ",
+        "QuantityInfo": {
+          "Name": "time  ",
+          "Path": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control|time  ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "2019-11-18T11:45:09.2010102+01:00",
+          "Source": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control.Repaglinide - Niemi 2001, 0.2.time  [h]"
+        },
+        "Values": [
+          0.3407135,
+          0.672073364,
+          1.00231171,
+          1.33537292,
+          1.66996765,
+          2.0039444,
+          2.50279236,
+          3.004631,
+          4.00756073,
+          5.005638,
+          7.00103
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Clarithromycin - Repaglinide DDI",
+      "Classifiables": [
+        "Niemi 2001, Clarithromycin 250 mg, BID, Repaglinide 0.25 mg, SD, day 5"
+      ]
+    },
+    {
+      "Name": "Repaglinide Control",
+      "Classifiables": [
+        "Niemi 2001, Repaglinide 0.25 mg, SD, Control"
+      ]
+    }
+  ]
+}
