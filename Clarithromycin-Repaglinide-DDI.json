@@ -1641,7 +1641,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "ng/ml",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -1827,13 +1827,15 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": 0.0,
+              "Max": 10.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "ng/ml",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -1850,7 +1852,7 @@
               "X": "Time",
               "Y": "Niemi 2001, Repaglinide 0.25 mg, SD, Control|Organism|PeripheralVenousBlood|Repaglinide|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#008000",
+                "Color": "#9BBB59",
                 "LegendIndex": 1
               }
             },
@@ -1859,7 +1861,7 @@
               "X": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control|time  ",
               "Y": "Repaglinide - Niemi 2001, 0.25 mg, day 5, SD, Control|ObservedData|Peripheral Venous Blood|Plasma|Repaglinide|Repa  ",
               "CurveOptions": {
-                "Color": "#008000",
+                "Color": "#9BBB59",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -1940,21 +1942,21 @@
             "MolWeight": 452.6
           },
           "Values": [
-            0.378712,
-            1.51184,
-            1.66897,
-            1.64136994,
-            1.60536,
-            1.4138,
-            1.34343994,
-            1.21423,
-            1.16021,
-            0.971151948,
-            0.762655,
-            0.546553
+            378.712,
+            1511.84,
+            1668.97,
+            1641.37,
+            1605.36,
+            1413.79993,
+            1343.44,
+            1214.23,
+            1160.21,
+            971.152,
+            762.655,
+            546.553
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -2054,20 +2056,20 @@
             "MolWeight": 452.6
           },
           "Values": [
-            0.00637522,
-            0.00615691,
-            0.0030092,
-            0.00176429,
-            0.00117327,
-            0.000800678041,
-            0.00049412204,
-            0.000348433,
-            0.000183928991,
-            0.000126627,
-            6.30675058E-05
+            6.37522,
+            6.15691,
+            3.0092,
+            1.76429009,
+            1.17327,
+            0.800678,
+            0.494122028,
+            0.348433018,
+            0.183929,
+            0.126627,
+            0.0630675
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -2178,20 +2180,20 @@
             "MolWeight": 452.6
           },
           "Values": [
-            0.00332602,
-            0.00414836,
-            0.002154,
-            0.001356,
-            0.000948088069,
-            0.000700645964,
-            0.000478063972,
-            0.000335472025,
-            0.000244040013,
-            0.000126752,
-            6.44002E-05
+            3.32602,
+            4.14836,
+            2.154,
+            1.356,
+            0.94808805,
+            0.700646,
+            0.478063971,
+            0.335472018,
+            0.244040012,
+            0.126752,
+            0.0644002
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
